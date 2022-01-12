@@ -25,3 +25,6 @@ oc new-app mlbparks -p APPLICATION_HOSTNAME=mlbparks-roadshow.127.0.0.1.xip.io -
 ----
 
 Also, now includes a github action for building and deploying.
+
+Requires OPENSHIFT_URL and OPENSHIFT_TOKEN to be set to work.
+
